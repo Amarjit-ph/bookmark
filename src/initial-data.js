@@ -13,17 +13,17 @@ const initialData = {
   columns: {
     'column-1': {
       id: 'column-1',
-      title: 'Technology',
+      title: 'Personal',
       taskIds: ['t1','t2','t3'],
     },
     'column-2': {
       id: 'column-2',
-      title: 'Personal',
+      title: 'Professional',
       taskIds: ['t4','t5','t6'],
     },
     'column-3': {
       id: 'column-3',
-      title: 'Investment',
+      title: 'Developer',
       taskIds: ['t7','t8','t9'],
     },
   },
