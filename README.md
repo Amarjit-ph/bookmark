@@ -3,8 +3,3 @@
     <h1>Bookmark</h1>
     <p>Your interactive self-hosted bookmark archive for daily traversing of websites.<br/>Free and open source.</p>
 </div>
-
-<br>
-<br>
-
-<img src="assets/1.png">
