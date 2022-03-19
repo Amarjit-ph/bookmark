@@ -1,14 +1,14 @@
 const initialData = {
   tasks: {
-    't1': { id: 't1', content: 'Facebook',title:"Facebook",URL:"facebook.com" },
-    't2': { id: 't2', content: 'Watch News' },
-    't3': { id: 't3', content: 'Charge my phone' },
-    't4': { id: 't4', content: 'Cook dinner' },
-    't5': { id: 't5', content: 'Clean my Room' },
-    't6': { id: 't6', content: 'Development' },
-    't7': { id: 't7', content: 'Meditate' },
-    't8': { id: 't8', content: 'Workout'},
-    't9': { id: 't9', content: 'Relax'}
+    't1': { id: 't1', content: 'Facebook', URL:"facebook.com" },
+    't2': { id: 't2', content: 'Instagram', URL:"instagram.com"},
+    't3': { id: 't3', content: 'Github' },
+    't4': { id: 't4', content: 'Trello' },
+    't5': { id: 't5', content: 'Cousera' },
+    't6': { id: 't6', content: 'Udemy' },
+    't7': { id: 't7', content: 'Vercel' },
+    't8': { id: 't8', content: 'Evernote'},
+    't9': { id: 't9', content: 'HackerRank'}
   },
   columns: {
     'column-1': {
