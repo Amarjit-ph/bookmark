@@ -17,42 +17,21 @@ export default function Task({task,index}) {
                   {...provided.draggableProps}
                   {...provided.dragHandleProps} > 
 
-                  {/* <div className="p-1" style={style}>
-                      <p className='m-0'> Id : {task.id}</p>
-                      <p className='m-0'> {task.content} </p>
-                  </div> */}
-
-
-
-
-                  {/* <!-- Card 1 --> */}
+              
+                  {/* <!-- Card --> */}
                     <a class="rounded-sm grid bg-white shadow px-2 items-center hover:shadow-lg duration-300 flex justify-items-start" href="#">
-                      
                    
                       {/* <!-- Title --> */}
-                      
-                        <p class="text-black font-semibold"> {task.content}</p>
-                      
-
-                    
-                      
-                        <p class="text-sm text-gray-800 font-light">Build a Python app using Django and then deploy the app to App</p>
-                      
+                      <p class="text-black font-semibold"> {task.content}</p>
                       
                       {/* <!-- Description --> */}
-                      {/* <div class="md:col-start-2 col-span-11 xl:-ml-5">
-                        <p class="text-sm text-gray-800 font-light"> Build a Python app using Django and then deploy the app to App Platform using a Gunicorn HTTP server. </p>
-                      </div> */}
+                      <p class="text-sm text-gray-800 font-light">{task.description}</p>
 
-                        {/* <!-- Icon --> */}
-                        
-                          {/* <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="#2563eb">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
-                          </svg> */}
-                          <img src={linkSvg} class="h-5 w-5 justify-self-end" fill="none" viewBox="0 0 24 24" stroke="#2563eb" />
-                      
+                      {/* Link */}
+                      <a href={task.URL} class="h-5 w-5 justify-self-end" target="_blank">
+                        <img src={linkSvg}  fill="none" viewBox="0 0 24 24" stroke="#2563eb"/>
+                      </a>
 
-                      
                     </a>
 
                 </div>
